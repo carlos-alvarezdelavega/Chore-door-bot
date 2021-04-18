@@ -88,7 +88,7 @@ const startRound = () => {
   startButton.innerHTML = 'Good luck!';
   currentlyPlaying = true;
   randomChoreDoorGenerator();
-}
+};
 
 startButton.onclick = () => {
   if (currentlyPlaying === false){
